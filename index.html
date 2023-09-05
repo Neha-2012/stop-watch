@@ -3,10 +3,43 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="stopWatch.css" />
         <title>Stop watch</title>
     </head>
     <body>
-        <script type="module" src="./src/init.js"></script>
+        <div>
+            <button class="stopwatch">stopWatch</button>
+        </div>
+        
+        <div class="container" >
+
+             <div class="time">
+                <label for ='hours'></label>
+                <input type ='text' id='hours'class='timeDisplay' placeholder="00">
+                
+               
+                <label for ='minute' class="timeBlink">:</label>
+                 <input type ='text' id='minute' class='timeDisplay'placeholder="00">
+               
+                <label for ='seconds'class="timeBlink">:</label>
+                <input type ='text' id='seconds'class='timeDisplay'  placeholder="00">
+              
+             </div>
+
+            <div> 
+                 <button id="startButton"class='timeButton'>start</button>
+                <button id="stopButton"class='timeButton'>stop</button>
+                <button id="restartButton"class='timeButton'>restart</button>
+            </div>
+            
+        </div>
+
+              
+
+
+        
+        
+        
+        <script src="stopWatch.js"></script>
     </body>
 </html>

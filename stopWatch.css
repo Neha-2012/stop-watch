@@ -1,0 +1,60 @@
+.stopwatch{
+    text-transform: uppercase;
+    margin-top: 5%;
+    margin-left:50%;
+    background-color:lavender;
+
+}
+.stopwatch:hover{
+    border-color: maroon;
+}
+
+
+
+
+
+
+.container{
+    height: 250px;
+    width:650px;
+    background-color:wheat;
+    position: absolute;
+    box-sizing: content-box;
+    border-radius: 10px;
+    margin-top:8%;
+    margin-left: 20%;
+}
+.timeDisplay{
+    margin-top: 10%;
+    margin-left: 10%;
+    height:50px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: black;
+    color:beige;
+    font-weight: bold;
+}
+
+.timeButton{
+    height:50px;
+    width: 100px;
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 10px;
+    background-color: black;
+    color:beige;
+}
+
+.timeBlink{
+    font-weight: Bold;
+    font-style: Bold;
+    margin-left:45px;
+    
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
